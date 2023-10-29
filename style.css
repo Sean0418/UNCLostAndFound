@@ -21,6 +21,12 @@ html {
 
 }
 
+::placeholder {
+  color: #636363 !important;
+  font-size: 12px;
+}
+
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;

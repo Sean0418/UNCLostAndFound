@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       itemLoc.textContent = 'Location: ' + item.location;
 
       var email = document.createElement('p');
-      email.textContent = 'Email: ' + item.contact;
+      email.textContent = 'Email: ' + item.contact; // Corrected field name
 
       if (item.image) {
         var itemImg = document.createElement('img');
